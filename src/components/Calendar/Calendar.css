@@ -1,0 +1,7 @@
+.months {
+  display: flex;
+  flex-direction: row;
+}
+.months > * {
+  width: 70px;
+}
