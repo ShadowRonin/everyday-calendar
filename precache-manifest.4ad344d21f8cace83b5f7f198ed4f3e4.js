@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8006e12d5f78a36d7a97f50574c47d9e",
+    "revision": "c8d403dd6c328a7ddaab7f3206b8c3dc",
     "url": "/everyday-calendar/index.html"
   },
   {
-    "revision": "a6877ff5c2440bc12ed8",
-    "url": "/everyday-calendar/static/css/main.6b437ecd.chunk.css"
+    "revision": "a3ead3d79218e1cc94dd",
+    "url": "/everyday-calendar/static/css/main.7aabf775.chunk.css"
   },
   {
     "revision": "ee48859743c631f4dafc",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a6877ff5c2440bc12ed8",
+    "revision": "a3ead3d79218e1cc94dd",
     "url": "/everyday-calendar/static/js/main.eb5f0668.chunk.js"
   },
   {
