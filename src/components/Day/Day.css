@@ -34,6 +34,7 @@
   border-left: solid var(--border-width) var(--border-color);
   border-right: solid var(--border-width) var(--border-color);
   color: var(--border-color);
+  cursor: pointer;
 }
 
 .hexagon::before,
