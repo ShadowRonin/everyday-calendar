@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/ShadowRonin/everyday-calendar/static/css/main.6b437ecd.chunk.css",
-    "main.js": "/ShadowRonin/everyday-calendar/static/js/main.0585acee.chunk.js",
-    "main.js.map": "/ShadowRonin/everyday-calendar/static/js/main.0585acee.chunk.js.map",
-    "runtime-main.js": "/ShadowRonin/everyday-calendar/static/js/runtime-main.28dc9fd3.js",
-    "runtime-main.js.map": "/ShadowRonin/everyday-calendar/static/js/runtime-main.28dc9fd3.js.map",
-    "static/js/2.1bf23bf7.chunk.js": "/ShadowRonin/everyday-calendar/static/js/2.1bf23bf7.chunk.js",
-    "static/js/2.1bf23bf7.chunk.js.map": "/ShadowRonin/everyday-calendar/static/js/2.1bf23bf7.chunk.js.map",
-    "index.html": "/ShadowRonin/everyday-calendar/index.html",
-    "precache-manifest.7d84d87eabe747daddcca93362cb2154.js": "/ShadowRonin/everyday-calendar/precache-manifest.7d84d87eabe747daddcca93362cb2154.js",
-    "service-worker.js": "/ShadowRonin/everyday-calendar/service-worker.js",
-    "static/css/main.6b437ecd.chunk.css.map": "/ShadowRonin/everyday-calendar/static/css/main.6b437ecd.chunk.css.map",
-    "static/js/2.1bf23bf7.chunk.js.LICENSE.txt": "/ShadowRonin/everyday-calendar/static/js/2.1bf23bf7.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/ShadowRonin/everyday-calendar/static/media/logo.5d5d9eef.svg"
+    "main.css": "/everyday-calendar/static/css/main.6b437ecd.chunk.css",
+    "main.js": "/everyday-calendar/static/js/main.eb5f0668.chunk.js",
+    "main.js.map": "/everyday-calendar/static/js/main.eb5f0668.chunk.js.map",
+    "runtime-main.js": "/everyday-calendar/static/js/runtime-main.24842c8c.js",
+    "runtime-main.js.map": "/everyday-calendar/static/js/runtime-main.24842c8c.js.map",
+    "static/js/2.1bf23bf7.chunk.js": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js",
+    "static/js/2.1bf23bf7.chunk.js.map": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js.map",
+    "index.html": "/everyday-calendar/index.html",
+    "precache-manifest.d462c9d0900d4fd04b06cb96bea49d16.js": "/everyday-calendar/precache-manifest.d462c9d0900d4fd04b06cb96bea49d16.js",
+    "service-worker.js": "/everyday-calendar/service-worker.js",
+    "static/css/main.6b437ecd.chunk.css.map": "/everyday-calendar/static/css/main.6b437ecd.chunk.css.map",
+    "static/js/2.1bf23bf7.chunk.js.LICENSE.txt": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/everyday-calendar/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.28dc9fd3.js",
+    "static/js/runtime-main.24842c8c.js",
     "static/js/2.1bf23bf7.chunk.js",
     "static/css/main.6b437ecd.chunk.css",
-    "static/js/main.0585acee.chunk.js"
+    "static/js/main.eb5f0668.chunk.js"
   ]
 }
