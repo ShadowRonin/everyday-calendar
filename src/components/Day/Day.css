@@ -1,13 +1,16 @@
 .hexagon-parent {
   --border-color: var(--color-secondary-1-2);
   --fill-color: rgba(1, 1, 1, 0);
+  --size: 40px;
+  /* --border-width: calc(var(--size) * 0.11785166); */
+  --border-width: 5px;
 
-  margin-left: auto;
-  margin-right: auto;
-  height: calc(60px * 1.154701);
-  width: 60px;
-  font-size: 34px;
-  line-height: 34px;
+  margin-left: var(--margin);
+  margin-right: var(--margin);
+  height: calc(var(--size) * 1.154701);
+  width: var(--size);
+  font-size: calc(var(--size) * 0.5666);
+  line-height: calc(var(--size) * 0.5666);
 }
 
 .fill {
@@ -17,18 +20,19 @@
 .hexagon span {
   position: relative;
   z-index: 2;
+  user-select: none;
 }
 
 /* http://brenna.github.io/csshexagon/ */
 /* hexagon diagonal https://www.engineeringtoolbox.com/hexagon-square-distance-corner-d_1892.html */
 .hexagon {
   position: relative;
-  width: 60px;
-  height: 34.64px;
+  width: var(--size);
+  height: calc(var(--size) * 0.57735);
   background-color: var(--fill-color);
-  margin: 17.32px 0;
-  border-left: solid 5px var(--border-color);
-  border-right: solid 5px var(--border-color);
+  margin: calc(var(--size) * 0.28868) 0;
+  border-left: solid var(--border-width) var(--border-color);
+  border-right: solid var(--border-width) var(--border-color);
   color: var(--border-color);
 }
 
@@ -37,29 +41,24 @@
   content: '';
   position: absolute;
   z-index: 1;
-  width: 42.43px;
-  height: 42.43px;
+  width: calc(var(--size) * 0.70711);
+  height: calc(var(--size) * 0.70711);
   -webkit-transform: scaleY(0.5774) rotate(-45deg);
   -ms-transform: scaleY(0.5774) rotate(-45deg);
   transform: scaleY(0.5774) rotate(-45deg);
   background-color: inherit;
-  left: 3.7868px;
+  /* left: calc(var(--size) * 0); */
+  left: calc(var(--size) * 0.025);
 }
 
 .hexagon::before {
-  top: -21.2132px;
-  border-top: solid 7.0711px var(--border-color);
-  border-right: solid 7.0711px var(--border-color);
+  top: calc(var(--size) * -0.3535534);
+  border-top: solid calc(var(--border-width) * 1.41422) var(--border-color);
+  border-right: solid calc(var(--border-width) * 1.41422) var(--border-color);
 }
 
 .hexagon::after {
-  bottom: -21.2132px;
-  border-bottom: solid 7.0711px var(--border-color);
-  border-left: solid 7.0711px var(--border-color);
-}
-*,
-::before,
-::after {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  bottom: calc(var(--size) * -0.3535534);
+  border-bottom: solid calc(var(--border-width) * 1.41422) var(--border-color);
+  border-left: solid calc(var(--border-width) * 1.41422) var(--border-color);
 }

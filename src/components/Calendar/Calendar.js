@@ -14,9 +14,14 @@ const Calendar = () => {
     setCalendar(updatedCalendar);
   };
 
+  const clearCalendar = () => {
+    setCalendar(createDefaultCalendar());
+  };
+
   return (
     <div>
-      <h2>Title</h2>
+      <h2>Every Day Calendar</h2>
+      <button className="reset" onClick={clearCalendar}>Clear</button>
       <div className="months">
         {calendar.map((month, index) => <Month value={month} key={month.shortName} toggleDay={createToggleDay(index)}></Month>)}
       </div>

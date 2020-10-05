@@ -1,7 +1,19 @@
 .months {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
-.months > * {
+/* .months > * {
   width: 70px;
+} */
+.reset {
+  border: 1px solid var(--color-secondary-2-1);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  justify-content: center;
+  padding: 3px;
+  cursor: pointer;
 }

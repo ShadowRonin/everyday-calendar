@@ -1,9 +1,17 @@
 .month {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  --margin: 3px;
+  align-content: center;
+  text-align: center;
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
 }
 
-.month > * {
-  margin-top: 5px;
-  margin-bottom: 5px;
+.month > h3 {
+  display: block;
+  width: 50px;
+  font-size: 20px;
+  line-height: 20px;
+  align-self: center;
 }
