@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8d403dd6c328a7ddaab7f3206b8c3dc",
+    "revision": "a730b8132a0848df2d997a0a5670d232",
     "url": "/everyday-calendar/index.html"
   },
   {
-    "revision": "a3ead3d79218e1cc94dd",
-    "url": "/everyday-calendar/static/css/main.7aabf775.chunk.css"
+    "revision": "d67d7a61dc378a560d95",
+    "url": "/everyday-calendar/static/css/main.d0820f2d.chunk.css"
   },
   {
-    "revision": "ee48859743c631f4dafc",
-    "url": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js"
+    "revision": "7aae3e8dee6aaedea67e",
+    "url": "/everyday-calendar/static/js/2.2b6e49e6.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js.LICENSE.txt"
+    "url": "/everyday-calendar/static/js/2.2b6e49e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3ead3d79218e1cc94dd",
-    "url": "/everyday-calendar/static/js/main.eb5f0668.chunk.js"
+    "revision": "d67d7a61dc378a560d95",
+    "url": "/everyday-calendar/static/js/main.4ddd0925.chunk.js"
   },
   {
     "revision": "ba192f1a35d77ad61139",

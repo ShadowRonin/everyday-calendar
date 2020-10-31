@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/everyday-calendar/static/css/main.7aabf775.chunk.css",
-    "main.js": "/everyday-calendar/static/js/main.eb5f0668.chunk.js",
-    "main.js.map": "/everyday-calendar/static/js/main.eb5f0668.chunk.js.map",
+    "main.css": "/everyday-calendar/static/css/main.d0820f2d.chunk.css",
+    "main.js": "/everyday-calendar/static/js/main.4ddd0925.chunk.js",
+    "main.js.map": "/everyday-calendar/static/js/main.4ddd0925.chunk.js.map",
     "runtime-main.js": "/everyday-calendar/static/js/runtime-main.24842c8c.js",
     "runtime-main.js.map": "/everyday-calendar/static/js/runtime-main.24842c8c.js.map",
-    "static/js/2.1bf23bf7.chunk.js": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js",
-    "static/js/2.1bf23bf7.chunk.js.map": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js.map",
+    "static/js/2.2b6e49e6.chunk.js": "/everyday-calendar/static/js/2.2b6e49e6.chunk.js",
+    "static/js/2.2b6e49e6.chunk.js.map": "/everyday-calendar/static/js/2.2b6e49e6.chunk.js.map",
     "index.html": "/everyday-calendar/index.html",
-    "precache-manifest.4ad344d21f8cace83b5f7f198ed4f3e4.js": "/everyday-calendar/precache-manifest.4ad344d21f8cace83b5f7f198ed4f3e4.js",
+    "precache-manifest.14266a1d54bca0cfbd2336c94c9c7ff3.js": "/everyday-calendar/precache-manifest.14266a1d54bca0cfbd2336c94c9c7ff3.js",
     "service-worker.js": "/everyday-calendar/service-worker.js",
-    "static/css/main.7aabf775.chunk.css.map": "/everyday-calendar/static/css/main.7aabf775.chunk.css.map",
-    "static/js/2.1bf23bf7.chunk.js.LICENSE.txt": "/everyday-calendar/static/js/2.1bf23bf7.chunk.js.LICENSE.txt",
+    "static/css/main.d0820f2d.chunk.css.map": "/everyday-calendar/static/css/main.d0820f2d.chunk.css.map",
+    "static/js/2.2b6e49e6.chunk.js.LICENSE.txt": "/everyday-calendar/static/js/2.2b6e49e6.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/everyday-calendar/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.24842c8c.js",
-    "static/js/2.1bf23bf7.chunk.js",
-    "static/css/main.7aabf775.chunk.css",
-    "static/js/main.eb5f0668.chunk.js"
+    "static/js/2.2b6e49e6.chunk.js",
+    "static/css/main.d0820f2d.chunk.css",
+    "static/js/main.4ddd0925.chunk.js"
   ]
 }
