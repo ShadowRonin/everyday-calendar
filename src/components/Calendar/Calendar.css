@@ -17,3 +17,31 @@
   padding: 3px;
   cursor: pointer;
 }
+
+.confirmClear {
+  position: fixed;
+  display: block;
+  width: 30%;
+  background: var(--color-primary-4);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 4;
+  border-radius: 20px;
+  padding: 10px;
+  filter: drop-shadow(8px 8px 10px #000);
+}
+
+.confirmButton {
+  border: 1px solid var(--color-primary-1);
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: center;
+  justify-content: center;
+  padding: 3px;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-right: 10px;
+}

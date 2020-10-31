@@ -6,6 +6,7 @@ import createDefaultCalendar from '../../util/createDefaultCalendar';
 
 const Calendar = () => {
   const [calendar, setCalendar] = usePersistedState('calendar', createDefaultCalendar);
+  const [showConfirm, setShowConfirm] = useState(false);
 
   const createToggleDay = (index) => (day) => {
     const updatedCalendar = [...calendar];
@@ -16,12 +17,28 @@ const Calendar = () => {
 
   const clearCalendar = () => {
     setCalendar(createDefaultCalendar());
+    setShowConfirm(false);
   };
+
+  const cancelClear = () => {
+    setShowConfirm(false);
+  }
+
+  const onClearClicked = () => {
+    setShowConfirm(true);
+  }
 
   return (
     <div>
       <h2>Every Day Calendar</h2>
-      <button className="reset" onClick={clearCalendar}>Clear</button>
+      <button className="reset" onClick={onClearClicked}>Clear</button>
+      {showConfirm ? (
+        <div className="confirmClear">
+          <div>Are you sure you want to clear the calendar? This can not be undone</div>
+          <button className="confirmButton" onClick={clearCalendar}>Clear</button>
+          <button className="confirmButton" onClick={cancelClear}>Cancel</button>
+        </div>
+      ) : null}
       <div className="months">
         {calendar.map((month, index) => <Month value={month} key={month.shortName} toggleDay={createToggleDay(index)}></Month>)}
       </div>
